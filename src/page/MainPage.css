@@ -2,10 +2,23 @@ h1{
     color: rgb(231, 231, 231);
 }
 
-.mainPage h2, p{
+.mainp{
     color:rgb(231, 231, 231, 0.7);
     width: 600px;
     border: solid 2px rgb(231, 231, 231, 0.1);
+    border-top: none;
+    padding: 10px;
+    
+}
+
+.topBox{
+    color:rgb(231, 231, 231, 0.7);
+    width: 600px;
+    border: solid 2px rgb(231, 231, 231, 0.1);
+    border-bottom: none;
+    display:flex;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 
@@ -13,4 +26,6 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 40px;
 }
+
