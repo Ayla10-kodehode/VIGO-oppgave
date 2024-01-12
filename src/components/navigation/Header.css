@@ -1,0 +1,26 @@
+header{
+    position: relative;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    Padding: 10px;
+    background-color: #091A1E;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.buttonBox, h1{
+    margin: 0px 15px;
+}
+
+.titleDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#E7E7E7;
+}
+
+
+
