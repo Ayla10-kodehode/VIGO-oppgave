@@ -1,0 +1,30 @@
+.comBox{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 40px;
+    
+    
+}
+
+.comDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:600px;
+    border: solid 2px rgb(231, 231, 231, 0.1);
+    margin: 20px;
+    padding:20px;   
+    color:rgb(231, 231, 231, 0.7)
+}
+
+.comUser{
+    color:rgb(231, 231, 231);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.comP{
+    font-size: 10px;
+}

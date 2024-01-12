@@ -17,12 +17,12 @@ export const Post = () => {
   }, []);
 
   return(
-    <section className="postBox">
+    <section className="postPage">
       {posts.map((posts) => (
         <div className="postDiv" key={posts.id}>
-            <h4>{posts.userId}</h4>
-            <h3>{posts.title}</h3>
-            <p>{posts.body}</p>
+            <h4 className="post posth4">{posts.userId}</h4>
+            <h3 className="post posth3">{posts.title}</h3>
+            <p className="post postp">{posts.body}</p>
         </div>
       ))}
     </section>

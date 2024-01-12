@@ -1,4 +1,3 @@
-import { DotsSvg } from "../components/Elements/DotsSvg";
 import "./MainPage.css";
 import {useState, useEffect} from 'react';
 
@@ -21,12 +20,10 @@ export const MainPage = () => {
 
   return (
   <section className="mainPage">
+    <h2 className="maintitle">Reload page for random post</h2>
     {randomPost && (
       <div className="randomP">
-        <div className="topBox">
           <h2 className="mainh2">{randomPost.title}</h2>
-          <DotsSvg/>
-        </div>
         <p className="mainp">{randomPost.body}</p>
       </div>
     )}

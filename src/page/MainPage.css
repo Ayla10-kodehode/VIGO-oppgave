@@ -1,20 +1,28 @@
+
+.maintitle{
+    color:rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
 .mainp{
     color:rgb(231, 231, 231, 0.7);
     width: 600px;
     border: solid 2px rgb(231, 231, 231, 0.1);
     border-top: none;
-    padding: 10px;
+    padding: 20px;
     
 }
 
-.topBox{
-    color:rgb(231, 231, 231, 0.7);
+.mainh2{
+    color:rgb(231, 231, 231);
     width: 600px;
     border: solid 2px rgb(231, 231, 231, 0.1);
     border-bottom: none;
     display:flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 
 
@@ -24,4 +32,5 @@
     align-items: center;
     margin: 40px;
 }
+
 

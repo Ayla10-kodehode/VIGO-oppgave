@@ -1,9 +1,12 @@
 import "./NavButton.css";
-import {useState} from "react";
+import {Link} from 'react-router-dom';
 
-export const NavButton = ({children}) => {
-    const [state, setState] = useState("active");
+export const NavButton = ({to, children, ...props}) => (
+    <button className="button" {...props}>
+        <Link to={to} className="link">
+            {children}
+        </Link>
+    </button>
+);
 
-    return <button style={{color: state === "active" ? "#F18404" : "white"}}>{children}</button>;
-}
 

@@ -1,9 +1,8 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import { NavButton } from "../Elements/NavButton";
+import { BrowserRouter as Router, Routes, Route, Link, useLocation} from "react-router-dom";
 import "./Header.css"
 
 export const Header = () => {
-
+    const location = useLocation();
     return (
         <header>
             <div className="titleDiv">
@@ -11,9 +10,9 @@ export const Header = () => {
                 <h3>Posts and comments</h3>
             </div>
             <div className="buttonBox">
-                <NavButton><Link to="/">Home</Link></NavButton>
-                <NavButton><Link to="/subPageOne">Posts</Link></NavButton>
-                <NavButton><Link to="/subPageTwo">Comments</Link></NavButton>
+                <Link to="/" className={location.pathname === '/' ? 'linkVisited' : 'linkStyle'}>Home</Link>
+                <Link to="/subPageOne" className={location.pathname === '/subPageOne' ? 'linkVisited' : 'linkStyle'}>Posts</Link>
+                <Link to="/subPageTwo" className={location.pathname === '/subPageTwo' ? 'linkVisited' : 'linkStyle'}>Comments</Link>
             </div>
         </header>
     )

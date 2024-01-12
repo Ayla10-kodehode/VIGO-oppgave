@@ -7,9 +7,15 @@
 }
 
 .postDiv{ 
-    width: 500px;
-    margin: 10px;
+    width: 600px;
+    margin: 40px;
     padding: 20px;
-    background-color: rgb(31, 79, 89, 0.8);
-    border-radius: 5px;
+    border: solid 2px rgb(231, 231, 231, 0.1);
+    
+    
+}
+.post{
+   color: rgb(231, 231, 231);
+    width: 600px;
+    padding: 10px;
 }

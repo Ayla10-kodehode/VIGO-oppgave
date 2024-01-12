@@ -2,13 +2,15 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    Padding: 10px;
-    background-color: #091A1E;
+    Padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #091A1E;  
 }
 
 .buttonBox, h1{
-    margin: 0px 15px;
+    display: flex;
+    gap:15px
 }
 
 .titleDiv{
@@ -18,5 +20,20 @@ header{
     color:#E7E7E7;
 }
 
+.linkStyle{
+    color:rgb(231, 231, 231);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.linkStyle:hover{
+    color: #f18404;
+}
+
+.linkVisited{
+    color:#f18404;
+    text-decoration: none;
+    font-size: 20px;
+}
 
 

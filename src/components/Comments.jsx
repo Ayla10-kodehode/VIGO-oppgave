@@ -20,9 +20,10 @@ export const Comments = () => {
     <section className="comBox">
       {comments.map((comments) => (
         <div className="comDiv" key={comments.id}>
-            <h4>{comments.postId}</h4>
+          <div className="comUser">
             <h2>{comments.name}</h2>
-            <p>{comments.email}</p>
+            <p className="comP">{comments.email}</p>
+          </div>
             <p>{comments.body}</p>
         </div>
       ))}
